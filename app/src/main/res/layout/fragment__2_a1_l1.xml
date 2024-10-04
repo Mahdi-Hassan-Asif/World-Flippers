@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.A1L1Fragment2">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView_1_l1_f2"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:background="@android:color/darker_gray"
+        android:foreground="?android:selectableItemBackground"
+        android:padding="3dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.231"
+        app:shapeAppearance="@style/Corner_for_imageView"
+        app:strokeColor="@color/white"
+        app:strokeWidth="5dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView_3_l1_f2"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:background="@android:color/darker_gray"
+        android:foreground="?android:selectableItemBackground"
+        android:padding="3dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.881"
+        app:shapeAppearance="@style/Corner_for_imageView"
+        app:strokeColor="@color/white"
+        app:strokeWidth="5dp" />
+
+    <Button
+        android:id="@+id/button_1_l1_f2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ADE365"
+        android:text="  Sulfur Components  "
+        app:cornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView_1_l1_f2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.283"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="3dp" />
+
+    <Button
+        android:id="@+id/button_2_l1_f2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ADE365"
+        android:text="Mercury Components"
+        app:cornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.002"
+        app:layout_constraintStart_toEndOf="@+id/imageView_2_l1_f2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.542"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="3dp" />
+
+    <Button
+        android:id="@+id/button_3_l1_f2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#ADE365"
+        android:text="Nitrogen Components"
+        app:cornerRadius="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/imageView_3_l1_f2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.831"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="3dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imageView_2_l1_f2"
+        android:layout_width="180dp"
+        android:layout_height="100dp"
+        android:background="@android:color/darker_gray"
+        android:foreground="?android:selectableItemBackground"
+        android:padding="3dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.553"
+        app:shapeAppearance="@style/Corner_for_imageView"
+        app:strokeColor="@color/white"
+        app:strokeWidth="5dp" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:layout_margin="20dp"
+        android:backgroundTint="#71C9F0"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toEndOf="@+id/button_2_l1_f2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5"
+        app:strokeColor="@color/white"
+        app:strokeWidth="5dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imageView_option1_l1_f2"
+                android:layout_width="180dp"
+                android:layout_height="100dp"
+                android:foreground="?android:selectableItemBackground"
+                android:padding="3dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.092"
+                app:shapeAppearance="@style/Corner_for_imageView"
+                app:srcCompat="@drawable/water_with_mercury"
+                app:strokeColor="@color/white"
+                app:strokeWidth="5dp" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imageView_option2_l1_f2"
+                android:layout_width="180dp"
+                android:layout_height="100dp"
+                android:foreground="?android:selectableItemBackground"
+                android:padding="3dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.5"
+                app:shapeAppearance="@style/Corner_for_imageView"
+                app:srcCompat="@drawable/water_with_nitrogen"
+                app:strokeColor="@color/white"
+                app:strokeWidth="5dp" />
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imageView_option3_l1_f2"
+                android:layout_width="180dp"
+                android:layout_height="100dp"
+                android:foreground="?android:selectableItemBackground"
+                android:padding="3dp"
+                android:scaleType="centerCrop"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.907"
+                app:shapeAppearance="@style/Corner_for_imageView"
+                app:srcCompat="@drawable/water_with_sulfur"
+                app:strokeColor="@color/white"
+                app:strokeWidth="5dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

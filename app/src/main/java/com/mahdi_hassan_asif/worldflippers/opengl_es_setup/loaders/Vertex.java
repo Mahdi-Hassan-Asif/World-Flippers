@@ -1,0 +1,67 @@
+package com.mahdi_hassan_asif.worldflippers.opengl_es_setup.loaders;
+
+import android.renderscript.Float3;
+
+public class Vertex {
+    private static final int NO_INDEX = -1;
+
+    private final Float3 position;
+    private int textureIndex = NO_INDEX;
+    private int normalIndex = NO_INDEX;
+    private Vertex duplicateVertex = null;
+    private final int index;
+//    private final float length;
+
+
+    public Vertex(int index,Float3 position){
+        this.index = index;
+        this.position = position;
+//        this.length = position.x + position.y + position.z;
+    }
+
+    public int getIndex(){
+        return index;
+    }
+
+//    public float getLength(){
+//        return length;
+//    }
+
+
+    public boolean isSet(){
+        return textureIndex!=NO_INDEX && normalIndex!=NO_INDEX;
+    }
+
+    public boolean hasSameTextureAndNormal(int textureIndexOther,int normalIndexOther){
+        return textureIndexOther==textureIndex && normalIndexOther==normalIndex;
+    }
+
+    public void setTextureIndex(int textureIndex){
+        this.textureIndex = textureIndex;
+    }
+
+    public void setNormalIndex(int normalIndex){
+        this.normalIndex = normalIndex;
+    }
+
+    public Float3 getPosition() {
+        return position;
+    }
+
+    public int getTextureIndex() {
+        return textureIndex;
+    }
+
+    public int getNormalIndex() {
+        return normalIndex;
+    }
+
+    public Vertex getDuplicateVertex() {
+        return duplicateVertex;
+    }
+
+    public void setDuplicateVertex(Vertex duplicateVertex) {
+        this.duplicateVertex = duplicateVertex;
+    }
+
+}
